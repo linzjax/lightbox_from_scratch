@@ -1,0 +1,56 @@
+/*****************
+GENERAL
+*****************/
+body {
+  width: 60%;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+#wrap{
+  width: 100%;
+  background-color: #aaa;
+  padding: 1% 5%;
+  margin: 0 auto;
+  margin-top: 5%;
+  box-shadow: 0px 0px 50px rgba(0,0,0, .5);
+  border: solid white 5px;
+}
+
+img {
+  border: solid white 4px;
+}
+
+
+/*****************
+GALLERY
+*****************/
+
+#gallery {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+.three-column {
+	/* Prevent vertical gaps */
+
+  	line-height: 0;
+
+  	-webkit-column-count: 3;
+  	-webkit-column-gap:   20px;
+   	-moz-column-count:    3;
+  	-moz-column-gap:      15px;
+  	column-count:         3;
+  	column-gap:           15px;  
+}
+
+
+#gallery img {
+  /* Just in case there are inline attributes */
+ 
+  width: 100% !important;
+  height: auto !important;
+  margin: 15px 15px 0 0;
+}
